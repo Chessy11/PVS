@@ -8,8 +8,7 @@ from routers import (user_register_route,
                      twiml_response_route, 
                      checker_route, 
                      balance_route,
-                     stripe_route,
-                     paypal_route
+          
                      )
 from database.db import Base, engine
 from utils.ngrok_config import set_ngrok_url
